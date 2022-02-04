@@ -1,7 +1,7 @@
-@import 'reset.css';
-@import 'common.css';
+@import "reset.css";
+@import "common.css";
+@import "flex.css";
 
-
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
