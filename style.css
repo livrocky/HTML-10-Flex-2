@@ -55,11 +55,11 @@ body {
   /* margin: 0 auto; */
   background-color: rgb(245, 241, 241);
   border-radius: 0.2rem;
-  min-height: 600px;
+  min-height: 700px;
 }
 
 div .main-image {
-  width: 400px;
+  width: 490px;
   float: left;
   margin-right: 10px;
 }
@@ -72,22 +72,25 @@ span {
 }
 
 .input {
-  width: 900px;
+  width: 970px;
   margin-bottom: 10px;
+  padding: 8px;
 }
 
 .input-text-box {
-  width: 900px;
+  width: 970px;
   margin-bottom: 0px;
+  padding: 5px;
 }
 
 button {
-  width: 250px;
+  width: 420px;
   color: white;
   background-color: green;
   border-style: none;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 50px;
+  margin-top: 10px;
 }
 
 table {
