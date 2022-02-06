@@ -31,20 +31,59 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
   /* margin-bottom: 100px;
   max-width: 100%; */
 }
 
 .container {
-  margin: 5px 200px;
+  margin: 5px 200px 20px 200px;
   padding: 10px 20px 20px 20px;
   /* margin: 0 auto; */
   background-color: rgb(245, 241, 241);
   border-radius: 0.2rem;
+  min-height: 600px;
 }
 
 div .main-image {
-  width: 250px;
+  width: 400px;
   float: left;
   margin-right: 10px;
+}
+
+/* KONTAKTAI */
+
+span {
+  color: green;
+  font-weight: 700;
+}
+
+.input {
+  width: 900px;
+  margin-bottom: 10px;
+}
+
+.input-text-box {
+  width: 900px;
+  margin-bottom: 0px;
+}
+
+button {
+  width: 250px;
+  color: white;
+  background-color: green;
+  border-style: none;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 900px;
+}
+
+th,
+td {
+  border: 1px solid grey;
+  text-align: center;
 }
