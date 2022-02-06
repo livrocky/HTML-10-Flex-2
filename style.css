@@ -4,24 +4,37 @@
 
 /* NAVIGATION  */
 
-.logo {
+/* .logo {
+  width: 50px;
+  justify-content: flex-start;
+} */
+
+img {
   width: 50px;
 }
 
-a {
+nav a {
   color: inherit;
 }
 
 .header {
+  display: flex;
+
   background-color: rgb(245, 241, 241);
-  padding: 5px 215px;
+  padding: 0px 215px;
   margin-bottom: 20px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .main-nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.nav-item {
+  display: inline-block;
+  padding-left: 50px;
 }
 
 /* PAGRINDINIS */
