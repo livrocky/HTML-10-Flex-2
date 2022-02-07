@@ -1,6 +1,6 @@
-@import "reset.css";
-@import "common.css";
-@import "flex.css";
+@import "CSS/reset.css";
+@import "CSS/common.css";
+@import "CSS/flex.css";
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
 
 /* icon section */
@@ -21,7 +21,10 @@
   flex-grow: 1;
 }
 
-.icon-card-5,
-.icon-card-6 {
-  flex-grow: 0;
+.card-50 {
+  flex-basis: 47%;
+}
+
+.card-100 {
+  flex-basis: 100%;
 }
